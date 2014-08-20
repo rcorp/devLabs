@@ -128,6 +128,8 @@ That we need to find out.
 
 #Displaying  different messages in a Grid.
 
+[Demo - How to show diffrent error Messages in Grid] (https://github.com/rcorp/devLabs/blob/master/dGrid%20demos/OnDemand.html)
+
 We researched and found the snippet below reponsible for showing a message in a Grid defined in OnDemandList.js in the function:
 **renderQuery: function(query, options)**
 
