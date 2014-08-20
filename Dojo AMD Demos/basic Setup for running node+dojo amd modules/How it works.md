@@ -55,3 +55,39 @@ define([
 ```
 
 we have replaced **native-node-package-name** by **fs** to require - node's native package - **fs**
+
+#Main.js
+To require Dojo's/yours custom created classes/module
+
+```js
+//Hi I am main file that can require another dojo classes or your own custom classes
+require([
+		"./App.js"
+	],
+	function(App) {
+		var app = new App();
+	})
+```
+
+
+#My Custom Class
+Syntax is same as we create classes using Dojo. To require node's native packages we can use
+**dojo/node!package-name**
+
+```js
+// Hi I am your custom class
+define([
+		"dojo/_base/declare",
+		"dojo/node!fs",
+	],
+	function(declare, fs) {
+		return declare('App', null, {
+			constructor: function(id) {
+				console.log('I am a constructor')
+			},
+			testFunc: function() {
+				console.log('I am a test function')
+			}
+		})
+	})
+```
