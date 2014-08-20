@@ -24,7 +24,7 @@ grid.refresh();
 
 **OUTPUT:**
 
-
+![Alt text](/assets/State - noData using normal Grid.bmp?raw=true)
 
 
 **EXPLANATION:**
@@ -60,6 +60,7 @@ grid.refresh();
 
 **OUTPUT:**
 
+![Alt text](/assets/State - noData using onDemandGrid.bmp?raw=true)
  
 
 **EXPLANATION:**
@@ -105,9 +106,9 @@ grid.refresh();
 ```
 
 **OUTPUT:**
+
+![Alt text](/assets/State - noData using normal Grid with Pagination.bmp?raw=true)
  
-
-
 
 **EXPLANATION:**
 
@@ -117,13 +118,6 @@ But the interesting part is when we include **Pagination** with Grid it started 
 **REASON:**
 There is something in the code of Pagination that is also there in OnDemandGrid that allow them to support NoDataMessage.
 That we need to find out.
-
-
-
-
-
-
-
 
 
 #Displaying  different messages in a Grid.
@@ -194,6 +188,8 @@ asyncQueryStore.query = function() {
 };
 ```
 **OUTPUT:**
+
+![Alt text](/assets/State - Custom Messages using onDemandGrid.bmp?raw=true)
 
 
 **CONCLUSION:**
