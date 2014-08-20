@@ -92,7 +92,7 @@ define([
 	})
 ```
 
-#How to Execute Code
+#How to Execute Code?
 
 It's simple. Just run this command in your terminal.
 
