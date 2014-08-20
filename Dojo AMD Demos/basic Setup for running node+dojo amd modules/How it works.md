@@ -96,10 +96,7 @@ define([
 
 It's simple. Just run this command in your terminal.
 
-`node` **your-js-file-name**
-
-**eg: **
-
+`node` **your-js-file-name** as
 ```js
 node server.js
 ```
