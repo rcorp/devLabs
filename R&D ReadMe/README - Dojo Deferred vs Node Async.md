@@ -130,16 +130,15 @@ define([
 
 1. SetUp **Async's WaterFall** function -  `async.waterfall`
 2. Add **First Element** to Array - Basic callback Function
-```js
-function(callback) {
+
+    ```js
+    function(callback) {
 	callback(null);
-}
-```
+    }
+    ```
 3. Add **Second Element** to Array - `Func1` with Async - **callback** for next function in series
 4. Add **Third Element** to Array - `Func2` with Async - **callback** for next function in series
 5. Add **Fourth Element** to Array - `Func3` with Async - **callback** for next function in series
-
-```
 
 ```js
 // Hi I am your custom class
