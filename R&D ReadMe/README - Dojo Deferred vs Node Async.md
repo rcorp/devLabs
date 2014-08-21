@@ -4,12 +4,14 @@ Node Async vs Dojo's Deferred
 #Using Dojo's Deferred - `Then`
 
 For **Single Async Operation** using **Deferred**
+
 1. Define a Deferred
 2. Call Async Function
 3. Resolve a Deferred
 4. Setup callback when Deferred gets resolved then call next operation
 
 For **Multiple Async Operation** using **Deferred**
+
 1. Define a **Deferred** - `Def1`
 2. Call **Async** Function - `Func1`
 	1. Define a **Deferred** - `Def2` in Function called at Point 2
@@ -27,12 +29,14 @@ For **Multiple Async Operation** using **Deferred**
 #Using Dojo's Deferred - `When`
 
 For **Single Async Operation** using **Deferred**
+
 1. Define a Deferred
 2. Call Async Function
 3. Resolve a Deferred
 4. Setup callback when Deferred gets resolved
 
 For **Multiple Async Operation** using **Deferred**
+
 1. Define a **Deferred** - `Def1`
 2. Define a **Deferred** - `Def2`
 3. Define a **Deferred** - `Def3`
@@ -123,12 +127,14 @@ define([
 ```
 
 #Using Node's Async.js
+
 1. SetUp **Async's WaterFall** function -  `async.waterfall`
 2. Add **First Element** to Array - Basic callback Function
 ```js
 function(callback) {
 	callback(null);
-},
+}
+```
 3. Add **Second Element** to Array - `Func1` with Async - **callback** for next function in series
 4. Add **Third Element** to Array - `Func2` with Async - **callback** for next function in series
 5. Add **Fourth Element** to Array - `Func3` with Async - **callback** for next function in series
