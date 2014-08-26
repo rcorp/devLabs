@@ -97,16 +97,16 @@ There might be some cases where developer has used some **Quick Fixes due to urg
 
 Let's say, we may need to change certain values for different Cases, we can **mention the exact Case in the documentation** as
 
-1. For Time Period less than 5 years
-	R would be 5%
-2. For Time Period greater than 5 years
-	R would be 8%
+1. For **Time Period** less than **5** years
+	**R** would be **5%**
+2. For **Time Period** greater than or equal to **5** years 
+	**R** would be **8**%
 
 #Indentation
 
 PrettyFormatting or formatting of code in a Human Readable form.
-Check this code Snippet
 
+Check this code **Snippet**
 ```js
 _updateNotifyHandle: function(store){
 if(this._notifyHandle){
@@ -137,5 +137,6 @@ _updateNotifyHandle: function(store){
 	}
 }
 ```
-**Indentation** helps making your code more readable and also helps avoiding error of missing braces etc in the code.
+**Indentation** helps making your code more **readable** and also **helps avoiding error of missing braces** etc. in the code.
+
 
