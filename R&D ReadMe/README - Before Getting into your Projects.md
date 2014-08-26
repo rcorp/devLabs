@@ -1,6 +1,6 @@
 #Before getting into your Projects
 
-And lastly, you got your project and you are fermenting in a Team. But before making your first `MasterPiece` you should be conversant with the `basic prerequisites for prettifying your Code`.
+And lastly, you got your project and you are fermenting in a Team. But before making your first **MasterPiece** you should be conversant with the **basic prerequisites for prettifying your Code**.
 
 We all are grouped into departments and teams. Although our tasks are different but in the end **these will be getting integrated into one Project**. In future some other person would be using or continuing with your code. It is thus necessary that your **work should not only be capable of working**, but it should also be **easy to Read and Understand** not neccessarily by other fellow developers but by the developer(who has developed the code) itself not only for now but in the future also.
 
@@ -37,17 +37,15 @@ var totalAmount = amount + simpleInterest
 **Is it clear?**
 I hope so
 
-**Note:** We use CamelCase for variables - eg: totalAmount
+We use **CamelCase** for variables - **eg:** `totalAmount`
 
 some better examples would be:
 
-	`defaultColorScheme`
-	`isUserVerifiedByAdmin`
-	`noDataMessage`
+	defaultColorScheme
+	isUserVerifiedByAdmin
+	noDataMessage
 
-In RCorp, as our Product is using the Dojo Toolkit, We follow the code convention followed or defined by Dojo.
-
-Dojo Style Guide
+In our Office, as our Product is using the **Dojo Toolkit**, We follow the *code convention followed or defined by* **Dojo**.
 
 #Documentation
 
@@ -77,15 +75,11 @@ In **case 2:** One can Cross Check,  whether the developer has implemented the f
 
 In either way or any other situation, documentation help us to understand what the developer has done and How he/she has done.
 
-Eg:
-
-Mathematical formula of calculating a Simple Interest is
+**Mathematical formula of calculating a Simple Interest**
 
 **How:**
 
-Principle Amount * Rate of Interest * Time Period
-
-and the reason is
+	Simple Interest = Principle Amount * Rate of Interest * Time Period
 
 **Why:**
 
@@ -97,11 +91,11 @@ to calculate Total Amount to be paid, the formula is
 
 	TotalAmount = Amount + Simple Interest
 
-Same can be explained by adding Documentation to the code.
+Same can be explained by adding **Documentation** to the code.
 
-There might be some cases where developer has used some Quick Fixes due to urgency of work, he can explain all those conditions and problems which lead him/her to use those quick fixes and how they could be solved in future.
+There might be some cases where developer has used some **Quick Fixes due to urgency** of work, one can **explain all those conditions and problems which lead him/her to use those quick fixes and how they could be solved in future**.
 
-Let's say, we may need to change certain values for different Cases, we can mention the exact Case in the documentation as
+Let's say, we may need to change certain values for different Cases, we can **mention the exact Case in the documentation** as
 
 1. For Time Period less than 5 years
 	R would be 5%
