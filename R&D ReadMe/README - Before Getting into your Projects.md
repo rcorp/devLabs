@@ -47,6 +47,8 @@ some better examples would be:
 
 In our Office, as our Product is using the **Dojo Toolkit**, We follow the *code convention followed or defined by* **Dojo**.
 
+Please follow this - [Dojo's Style Guide] (http://dojotoolkit.org/reference-guide/1.10/developer/styleguide.html#developer-styleguide)
+
 #Documentation
 
 **Code convention**, helps in understanding what the code is doing, but the answer of **
@@ -142,4 +144,5 @@ _updateNotifyHandle: function(store){
 #Sublime Shortcuts:
 
 Will be added **soon**
+
 
