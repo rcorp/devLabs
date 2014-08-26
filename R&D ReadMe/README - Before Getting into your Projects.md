@@ -9,8 +9,8 @@ Moreover, we are using **Sublime Text** as an Editor, we should know some **shor
 #What do we need to reproduce a Quality Code?
 
 1. Naming Convention.
-2. Code Formatting.
-3. Documentation.
+2. Documentation.
+3. Code Formatting.
 4. Sublime Keyboard Short Cuts.
 
 #Naming Convention:
@@ -102,7 +102,7 @@ Let's say, we may need to change certain values for different Cases, we can **me
 2. For **Time Period** greater than or equal to **5** years 
 	**R** would be **8**%
 
-#Indentation
+#Code Formatting
 
 PrettyFormatting or formatting of code in a Human Readable form.
 
