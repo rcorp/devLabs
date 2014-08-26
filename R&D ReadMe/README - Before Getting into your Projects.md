@@ -161,11 +161,11 @@ After Installation
 
 **Config file for JSHint**
 
-1. Open Sublime
-2. Click - `Preference' -> `Browse Packages`
-3. Open - `Sublime-JSHint`
-4. Copy & Paste Code below - replace all previous data in that file
-5. Done
+1. **Open** Sublime
+2. **Click** - `Preference` -> `Browse Packages`
+3. **Open** - `Sublime-JSHint`
+4. **Copy & Paste** Code below - replace all previous data in that file
+5. Done.
 
 ```js
 {
