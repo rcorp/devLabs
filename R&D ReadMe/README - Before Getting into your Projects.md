@@ -144,6 +144,17 @@ _updateNotifyHandle: function(store){
 
 #Sublime Shortcuts:
 
-Will be added **soon**
+Install [Sublime Package Control](https://sublime.wbond.net/installation)
 
+After Installation
+
+1. Ctrl+Shift+P
+2. Search for Package by typing its name
+3. Press Enter and wait untill it gets installed
+
+**Add following packages to your Sublime Text Editor**
+
+1. [JSFormat](https://github.com/jdc0589/JsFormat)
+2. [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
+3. [JSHint](https://github.com/victorporof/Sublime-JSHint)
 
