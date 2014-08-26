@@ -148,13 +148,99 @@ Install [Sublime Package Control](https://sublime.wbond.net/installation)
 
 After Installation
 
-1. Ctrl+Shift+P
-2. Search for Package by typing its name
-3. Press Enter and wait untill it gets installed
+1. `Ctrl+Shift+P`
+2. Type - `Package Control: Install Package` and Press `Enter`
+3. Search for Package by typing its name
+4. Press Enter and wait untill it gets installed
 
 **Add following packages to your Sublime Text Editor**
 
 1. [JSFormat](https://github.com/jdc0589/JsFormat)
 2. [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
-3. [JSHint](https://github.com/victorporof/Sublime-JSHint)
+3. [JS Hint Gutter](https://github.com/victorporof/Sublime-JSHint)
 
+**Config file for JSHint**
+
+1. Open Sublime
+2. Click - `Preference' -> `Browse Packages`
+3. Open - `Sublime-JSHint`
+4. Copy & Paste Code below - replace all previous data in that file
+5. Done
+
+```js
+{
+	"asi": false,
+	"bitwise": false,
+	"boss": false,
+	"browser": true,
+	"camelcase": true,
+	"couch": false,
+	"curly": true,
+	"debug": false,
+	"devel": true,
+	"dojo": true,
+	"eqeqeq": true,
+	"eqnull": true,
+	"es3": false,
+	"esnext": false,
+	"evil": false,
+	"expr": true,
+	"forin": false,
+	"funcscope": true,
+	"gcl": false,
+	"global":{
+	  "aspire":true,
+	  "window":true
+	},
+	"globalstrict": false,
+	"immed": true,
+	"iterator": false,
+	"jquery": false,
+	"lastsemic": false,
+	"latedef": false,
+	"laxbreak": true,
+	"laxcomma": false,
+	"loopfunc": true,
+	"mootools": false,
+	"moz": false,
+	"multistr": false,
+	"newcap": true,
+	"noarg": true,
+	"node": false,
+	"noempty": false,
+	"nonew": true,
+	"nonstandard": false,
+	"nomen": false,
+	"onecase": false,
+	"onevar": false,
+	"passfail": false,
+	"phantom": false,
+	"plusplus": false,
+	"proto": false,
+	"prototypejs": false,
+	"regexdash": true,
+	"regexp": false,
+	"rhino": false,
+	"scripturl": true,
+	"shadow": false,
+	"shelljs": false,
+	"smarttabs": true,
+	"strict": false,
+	"sub": false,
+	"supernew": false,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"validthis": true,
+	"withstmt": false,
+	"white": true,
+	"worker": false,
+	"wsh": false,
+	"yui": false,
+	"maxlen": 120,
+	"indent": 4,
+	"maxerr": 250,
+	"predef": [ "require", "define", "LazyLoad", "io" ],
+	"maxcomplexity": 10
+}
+```
