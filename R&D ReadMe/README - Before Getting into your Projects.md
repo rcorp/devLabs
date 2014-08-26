@@ -1,10 +1,10 @@
-#Before getting into yout Projects
+#Before getting into your Projects
 
-And lastly, you got your project and you are fermenting in a Team. But before making your first MasterPiece you should be conversant with the basic prerequisites for prettifying your Code.
+And lastly, you got your project and you are fermenting in a Team. But before making your first `MasterPiece` you should be conversant with the `basic prerequisites for prettifying your Code`.
 
-We all are grouped into departments and teams. Although our tasks are different but in the end these will be getting integrated into one Project. In future some other person would be using or continuing with your code. It is thus necessary that your work should not only be capable of working, but it should also be easy to Read and Understand.
+We all are grouped into departments and teams. Although our tasks are different but in the end **these will be getting integrated into one Project**. In future some other person would be using or continuing with your code. It is thus necessary that your **work should not only be capable of working**, but it should also be **easy to Read and Understand** not neccessarily by other fellow developers but by the developer(who has developed the code) itself not only for now but in the future also.
 
-Moreover, we are using Sublime Text as an Editor, we should know some shortcuts defined by it particularly to assist developers to increase their efficiency by decreasing their very tedious tasks like Multiple Edits, Auto Formatting/Indentation etc.
+Moreover, we are using **Sublime Text** as an Editor, we should know some **shortcuts** defined by it particularly to assist developers to **increase their efficiency** by decreasing their very tedious tasks like Multiple Edits, Auto Formatting/Indentation etc.
 
 #What do we need to reproduce a Quality Code?
 
@@ -38,10 +38,12 @@ var totalAmount = amount + simpleInterest
 I hope so
 
 **Note:** We use CamelCase for variables - eg: totalAmount
+
 some better examples would be:
-	defaultColorScheme
-	isUserVerifiedByAdmin
-	noDataMessage
+
+	`defaultColorScheme`
+	`isUserVerifiedByAdmin`
+	`noDataMessage`
 
 In RCorp, as our Product is using the Dojo Toolkit, We follow the code convention followed or defined by Dojo.
 
