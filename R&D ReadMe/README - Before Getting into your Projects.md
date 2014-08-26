@@ -49,7 +49,10 @@ Dojo Style Guide
 
 #Documentation
 
-**Code convention**, helps in understanding what the code is doing, but the answer of **How is it doing and Why we have done in this way is even dropping**. **Documentation** of the code can be done to answer these queries.
+**Code convention**, helps in understanding what the code is doing, but the answer of **
+How is it doing and Why we have done in this way is even dropping**.
+
+**Documentation** of the code can be done to answer these queries.
 
 Check out this code snippet.
 
@@ -59,15 +62,16 @@ var simpleInterest = principal * rateOfInterest * time;
 var totalAmount = amount + simpleInterest
 ```
 
-How & Why?
+**How & Why?**
+
 The above example is related to Mathematics, the developer may or may not have that in-depth knowledge of Mathematics, the developer may make some mistakes in Math formulas etc. The correct formula could be provided to developer in the two forms.
 
 1. As a part of requirement
 2. Allow developer to research it first and then implement it.
 
-In case 1: the developer should be sure or confident what he/she is implementing. He can Cross Check his/her work by referencing the documentation.
+In **case 1:** the developer should be sure or confident what he/she is implementing. He can Cross Check his/her work by referencing the documentation.
 
-In case 2: One can Cross Check,  whether the developer has implemented the formula correctly or not.
+In **case 2:** One can Cross Check,  whether the developer has implemented the formula correctly or not.
 
 In either way or any other situation, documentation help us to understand what the developer has done and How he/she has done.
 
@@ -76,11 +80,13 @@ Eg:
 Mathematical formula of calculating a Simple Interest is
 
 **How:**
+
 Principle Amount * Rate of Interest * Time Period
 
 and the reason is
 
 **Why:**
+
 `The credit holder has to give a percentage of Interest after certain time period along with the Total Amount.`
 
 `Interest is a fee paid by a borrower of assets to the owner as a form of compensation for the use of the assets.`
@@ -119,3 +125,21 @@ lang.hitch(this, "_onNotify"), true);
 ```
 
 **Is it easy to read?**
+Nope.
+
+**How about this?**
+
+```js
+_updateNotifyHandle: function(store){
+	if(this._notifyHandle){
+		this._notifyHandle.remove();
+		delete this._notifyHandle;
+	}
+
+	if(store && typeof store.notify === "function"){
+		this._notifyHandle = aspect.after(store, "notify", lang.hitch(this, "_onNotify"), true);
+	}
+}
+```
+**Indentation** helps making your code more readable and also helps avoiding error of missing braces etc in the code.
+
