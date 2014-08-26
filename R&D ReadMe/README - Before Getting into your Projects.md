@@ -51,8 +51,7 @@ Please follow this - [Dojo's Style Guide] (http://dojotoolkit.org/reference-guid
 
 #Documentation
 
-**Code convention**, helps in understanding what the code is doing, but the answer of **
-How is it doing and Why we have done in this way is even dropping**.
+**Code convention**, helps in understanding what the code is doing, but the answer of **How is it doing and Why we have done in this way is even dropping**.
 
 **Documentation** of the code can be done to answer these queries.
 
