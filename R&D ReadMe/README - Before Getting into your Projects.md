@@ -139,7 +139,7 @@ _updateNotifyHandle: function(store){
 ```
 **Indentation** helps making your code more **readable** and also **helps avoiding error of missing braces** etc. in the code.
 
-#Sublime Shorcuts:
+#Sublime Shortcuts:
 
 Will be added **soon**
 
