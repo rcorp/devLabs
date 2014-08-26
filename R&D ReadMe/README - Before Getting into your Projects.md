@@ -85,21 +85,27 @@ and the reason is
 
 `Interest is a fee paid by a borrower of assets to the owner as a form of compensation for the use of the assets.`
 
-to calculate Total Amount the formula is
-Amount + Simple Interest
+to calculate Total Amount to be paid, the formula is
+
+	TotalAmount = Amount + Simple Interest
+
 Same can be explained by adding Documentation to the code.
 
 There might be some cases where developer has used some Quick Fixes due to urgency of work, he can explain all those conditions and problems which lead him/her to use those quick fixes and how they could be solved in future.
 
 Let's say, we may need to change certain values for different Cases, we can mention the exact Case in the documentation as
-For Time Period less than 5 years
-R would be 5%
-For Time Period greater than 5 years
-R would be 8%
-Indentation
+
+1. For Time Period less than 5 years
+	R would be 5%
+2. For Time Period greater than 5 years
+	R would be 8%
+
+#Indentation
+
 PrettyFormatting or formatting of code in a Human Readable form.
 Check this code Snippet
 
+```js
 _updateNotifyHandle: function(store){
 if(this._notifyHandle){
 this._notifyHandle.remove();
@@ -109,7 +115,7 @@ if(store && typeof store.notify === "function"){
 this._notifyHandle = aspect.after(store, "notify",
 lang.hitch(this, "_onNotify"), true);
 }
-},
+}
+```
 
-
-Is it easy to read?
+**Is it easy to read?**
