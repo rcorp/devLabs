@@ -103,6 +103,8 @@ Let's say, we may need to change certain values for different Cases, we can **me
 2. For `Time Period` greater than or equal to `5 years` 
 	**R** would be **8**%
 
+Please follow this - [JSDocs](http://usejsdoc.org/)
+
 #Code Formatting
 
 PrettyFormatting or formatting of code in a Human Readable form.
