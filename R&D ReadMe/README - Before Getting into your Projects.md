@@ -97,9 +97,9 @@ There might be some cases where developer has used some **Quick Fixes due to urg
 
 Let's say, we may need to change certain values for different Cases, we can **mention the exact Case in the documentation** as
 
-1. For **Time Period** less than **5** years
+1. For `Time `Period **less than** `5 years`
 	**R** would be **5%**
-2. For **Time Period** greater than or equal to **5** years 
+2. For `Time Period` greater than or equal to `5 years` 
 	**R** would be **8**%
 
 #Code Formatting
@@ -139,4 +139,7 @@ _updateNotifyHandle: function(store){
 ```
 **Indentation** helps making your code more **readable** and also **helps avoiding error of missing braces** etc. in the code.
 
+#Subkime Shorcuts:
+
+Will be added **ASAP**
 
