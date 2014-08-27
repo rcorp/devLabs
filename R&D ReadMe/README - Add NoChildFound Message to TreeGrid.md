@@ -16,7 +16,7 @@
 **CASE 1:**
   Now, we want that when we click on that carat a new row will be inserted in which we can add message which we want to   display.
   For this, firstly we used **tree.js**
-  ```js
+```js
  if(grid.renderQuery){                    
           console.log(grid.renderQuery(queryoptions).forEach.length, '*')
           if(grid.renderQuery(query, options).forEach.length == 0) {
@@ -29,6 +29,7 @@
           }
                   return grid.renderQuery(query, options);
    }
+ ```  
 **EXPLANATION:**                            
                                                                                                                   
 **CONCLUSION:**
@@ -46,6 +47,7 @@
           }
            return grid.renderQuery(query, options);
    }
+  ``` 
 **EXPLANATION:**  
                                               
 **CONCLUSION:**
@@ -62,6 +64,7 @@
                }]
             }
    }
+  ``` 
 **EXPLANATION:**  
                                                     
 **CONCLUSION:**
@@ -77,7 +80,8 @@
                       }])
              
            return d = QueryResults(_d)
-   }        
+   }  
+  ``` 
 **EXPLANATION:**  
                                                              
 **CONCLUSION:**
@@ -96,7 +100,8 @@ if(grid.renderQuery){
                  ])
                  return QueryResults(_d)
          }
-  }       
+  } 
+ ``` 
 **EXPLANATION:**  
                                                      
 **CONCLUSION:**
@@ -120,7 +125,9 @@ if(grid.renderQuery){
                  return QueryResults(_d)
          }
           return grid.renderQuery(query, options);
-  }        
+  } 
+ ```
+ 
  **EXPLANATION:**       
                                                  
                                                }
@@ -148,6 +155,8 @@ if(grid.renderQuery){
          console.log('returned')
          return grid.renderQuery(query, options);
   }
+  ```
+  
 **FINAL CONCLUSION:**
 	we tried all the above mentioned code bt unfortunately, all of them fails.
 	after all this, we can finally conclude that this task won't be possible in **tree.js**
@@ -179,6 +188,7 @@ var _res = this.queryEngine(query, options)(this.data);
 			}
 			return this.queryEngine(query, options)(this.data);
 		}
+```		
   
 **EXPLANATION:**
 	**var_res =  this.queryEngine(query, options)(this.data);**
@@ -201,17 +211,35 @@ var _res = this.queryEngine(query, options)(this.data);
 				border: 0px;
 			}
 	 we are using **customFormatter function** in only one column of the tree grid, i.e. column with **label: "Type"**. 
-	```js
-			columns: [
-							tree({label: "Name", field:"name", sortable: false}),
-							editor({label: "Visited", field: "bool", sortable: false}, "checkbox"),
-							{label:"Type", field:"type", sortable: false, formatter: customFormatter},
-							{label:"Population", field:"population"},
-							{label:"Timezone", field:"timezone"}
-						],
+```js
+		columns: [
+	tree({
+		label: "Name",
+		field: "name",
+		sortable: false
+	}),
+	editor({
+		label: "Visited",
+		field: "bool",
+		sortable: false
+	}, "checkbox"), {
+		label: "Type",
+		field: "type",
+		sortable: false,
+		formatter: customFormatter
+	}, {
+		label: "Population",
+		field: "population"
+	}, {
+		label: "Timezone",
+		field: "timezone"
+	}
+],
+
+```			
 						
-   The **customFormatter Function** is being defined as follows, that will hide the data and border for the new row with message to be displayed only.
-    ```js
+The **customFormatter Function** is being defined as follows, that will hide the data and border for the new row with message to be displayed only.
+```js
     function customFormatter(data,object){
 						if(object.type=="message"){
 						console.log("data is", data);
@@ -221,6 +249,8 @@ var _res = this.queryEngine(query, options)(this.data);
 						else
 							return data;
 		}
+```
+	
 **EXPLANATION:**
    We succeed in hiding the text, but border was still there, that's why we dropped the idea.
        
@@ -248,6 +278,8 @@ aspect.after(treeGrid, "insertRow", function(m, x){
 					}
 					return m;
 	});
+```	
+
 **EXPLANATION:**
 		We are using the id of that particular row which has the message to be displayed,
     With this we are getting the id of each column of that row.
