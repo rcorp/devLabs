@@ -1,4 +1,4 @@
-#How can we display messages for child in tree grid which further has no more childs.
+#How can we display messages for child in tree grid which further has no child.
 
 **Requirement:**
 We need to display a Folder-File Structure using a TreeGrid. A normal Grid has an options to display message when data is empty as `noDataMessage`, we need to show similar kind of messages for **Every parent Row**.
@@ -282,3 +282,4 @@ We used **id** of that particular **Row** which has the message to be displayed,
 **CONCLUSION:**     
 By using this code, we successfully got **The Message to be displayed when Parent Row further has no more child**, with extra columns Removed for that particular row.
 
+![Alt text](/assets/final result of displaying message for leaf child in treegrid.png?raw=true)
