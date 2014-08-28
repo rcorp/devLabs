@@ -187,7 +187,7 @@ returns Array of child Objects, to resolve our issue, we explicitly returned a s
 
 After this, we successfully got the new row and message can be displayed very easily.
 
-![Alt text](/assets/displaying message for leaf child in treegrid with extra columns.png?raw=true)
+![Alt text](/assets/final result of displaying message for leaf child in treegrid with extra columns.png?raw=true)
 
 #Step 3: Remove extra cells from the row Displaying Message
 
