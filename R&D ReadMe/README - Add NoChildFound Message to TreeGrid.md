@@ -111,12 +111,14 @@ if (grid.renderQuery) {
     }
     return grid.renderQuery(query, options);
 }
- ```
+```
  
 **EXPLANATION:**       
+
 Do `def.ForEach`, if `forEach` gets executed it means we have **Children** and we can set **Flag to true**. If **Flag** is **false** then `return` our Custom Data to insert a new Row for displaying a message. 
 
 **CONCLUSION:**
+
 By using this code, we didn't required result, that's why we used another segment of code.
 
 
@@ -150,6 +152,7 @@ if (grid.renderQuery) {
 and till it gets executed completely the `return` statement below it gets execute and thats why we have't get any **Row** yet instead of using all **Surely Correct Code**.
 
 **CONCLUSION:**
+
 **Modifying `tree.js` is not a Solution** because whatever condition we will apply at or before
 
     return grid.renderQuery(query, options);
@@ -158,6 +161,7 @@ we have to resolve that **Deferred** and by the time **Deferred** gets resolved 
 
 
 **CASE 5:**
+
 Then we switched to **base.js**, we modified **query** function as
 
 ```js
@@ -180,15 +184,18 @@ Then we switched to **base.js**, we modified **query** function as
 returns Array of child Objects, to resolve our issue, we explicitly returned a single object with Message to be displayed and It works. Finally, We got the only solution for displaying Messages under Each Parent with no Child. We can also use it for other conditions and messages.
 
 **CONCLUSION:**
-    After this, we successfully got the new row and message can be displayed very easily.
+
+After this, we successfully got the new row and message can be displayed very easily.
 
 **STEP 3:**
-  Now, our task was to hide all the other columns except the one with the message to be displayed.
+
+Now, our task was to hide all the other columns except the one with the message to be displayed.
 
 **CASE 1:**
-  First we tried with **customFormatter**,
 
-  we used **css properties**, as follows, **to hide the data and border as well,** for each column of that particular row, except the one with the message to be displayed.
+First we tried with **customFormatter**,
+
+we used **css properties**, as follows, **to hide the data and border as well,** for each column of that particular row, except the one with the message to be displayed.
 
 ```css
 .formatter {
