@@ -11,7 +11,7 @@ We need to display a Folder-File Structure using a TreeGrid. A normal Grid has a
 
 ![Alt text](/assets/displaying message for leaf child in treegrid.fw.png?raw=true)
 
-#STEP 1: Add Carat to those nodes who are at leaf.
+#Step 1: Add Carat to those nodes who are at leaf.
 
 By defaut if a **Parent** has **No Child** then there should be no **Carat**, if we don't have **Carat**, how can we allow user to click on it and to show - **No Child Message** when it gets expanded.
 
@@ -27,7 +27,7 @@ we made it possible by altering the function **mayHaveChildren** in **base.js** 
 **CONCLUSION:**
     After this, we got the **Carat** for those nodes which further has no more child.
         
-#STEP 2: Display Message under Each Non-Child Parent
+#Step 2: Display Message under Each Non-Child Parent
 
 **CASE 1:**
   Now, we want that when we click on that **Carat** a **New Row** should get inserted which we can use to display message.
@@ -187,7 +187,7 @@ returns Array of child Objects, to resolve our issue, we explicitly returned a s
 
 After this, we successfully got the new row and message can be displayed very easily.
 
-#STEP 3: Remove extra cells from the row Displaying Message
+#Step 3: Remove extra cells from the row Displaying Message
 
 Now, our task was to hide all the other columns except the one with the message to be displayed.
 
