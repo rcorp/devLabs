@@ -62,7 +62,9 @@ If no result then return a Data in such a way as needed by tree grid to insert a
 
 **CONCLUSION:**
 
-**Failed** - Reason?, we had no Reason it should work perfectly but it doesn't. We thought that we should use and return a **Deferred** directly instead of using queryEngine. Moreover, ``this don't have a function queryEngine
+**Failed!!!**
+
+**Reason?**, acually **No Reason** it should work perfectly but it doesn't. Then we thought that we should **use and return a Deferred** directly instead of using **queryEngine**. Moreover, `this` don't have a function **queryEngine**
 
 
 **CASE 2:**
@@ -86,7 +88,7 @@ We used **Deferred** and resolved it with our Dummy Data and returned it using *
                                                              
 **CONCLUSION:**
 
-**Failed** - Reason?, we again had no Reason it should work perfectly but it doesn't. We thought to use `def.`forEach type and use some Flags to control some conditions.
+**Failed** - Reason?, we again had no Reason it should work perfectly but it doesn't. We thought to use `def.forEach` and use some Flags to control some conditions.
 
 
 **Case 3:**
@@ -112,8 +114,7 @@ if (grid.renderQuery) {
  ```
  
 **EXPLANATION:**       
-Do `def.ForEach`, if ``forEach gets executed it means we have **Children** and set **Flag to true**.
-if **Flag** is **false** then ``return our Custom Data to insert a new Row to display message. 
+Do `def.ForEach`, if `forEach` gets executed it means we have **Children** and we can set **Flag to true**. If **Flag** is **false** then `return` our Custom Data to insert a new Row for displaying a message. 
 
 **CONCLUSION:**
 By using this code, we didn't required result, that's why we used another segment of code.
@@ -269,8 +270,8 @@ aspect.after(treeGrid, "insertRow", function(m, x){
 ``` 
 
 **EXPLANATION:**
-We are using the id of that particular row which has the message to be displayed, With this we got the id of each column of that row. After that just by using the Id of the Column used for Displaying message we can easily remove all the other cells of that row.
+We used **id** of that particular **Row** which has the message to be displayed, With this we can get the **id** of each **column** of that **Row**. And we can easily remove all other **Cells** of that **Row**.
 
 **CONCLUSION:**     
-By using this code, we got the message to be displayed when Parent Row further has no more child, with extra columns Removed for that particular row.
+By using this code, we successfully got **The Message to be displayed when Parent Row further has no more child**, with extra columns Removed for that particular row.
 
