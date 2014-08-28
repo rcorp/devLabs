@@ -9,6 +9,7 @@ We need to display a Folder-File Structure using a TreeGrid. A normal Grid has a
 2. **Grid** natively supports **One Message** at a time(Only one div to show Message)
 3. Extend **Tree.js**.
 
+![Alt text](/assets/displaying message for leaf child in treegrid.fw.png?raw=true)
 
 #Add Carat to those nodes who are at leaf.
 
