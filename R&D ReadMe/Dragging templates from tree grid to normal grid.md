@@ -24,7 +24,6 @@ dndParams: {
 
 By using above mentioned piece of code, we succeed in Dragging the rows from Tree Grid, Parent as well as Child.
 
-![Alt text](/assets/dragging.png?raw=true)
 	
 **On** further **R&D** on **DnD_tree.html**				
 Then we tried Dropping the rows in a Normal List or Grid, which don't have Store.
@@ -79,7 +78,6 @@ Code being used is:
 
 By using this code, we succeed in **Dropping** the rows from Tree Grid to normal div, **Parent** as well as **Child**.
 
-![Alt text](/assets/dragging.png?raw=true)
 
 **STEP 3:**
 
