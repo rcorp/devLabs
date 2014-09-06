@@ -24,7 +24,7 @@ dndParams: {
 
 By using above mentioned piece of code, we succeed in Dragging the rows from Tree Grid, Parent as well as Child.
 
-Alt text](/assets/dragging.png?raw=true)
+[Alt text](/assets/dragging.png?raw=true)
 
 	
 **On** further **R&D** on **DnD_tree.html**				
@@ -80,7 +80,7 @@ Code being used is:
 
 By using this code, we succeed in **Dropping** the rows from Tree Grid to normal div, **Parent** as well as **Child**.
 
-Alt text](/assets/dropping.png?raw=true)
+[Alt text](/assets/dropping.png?raw=true)
 
 
 
