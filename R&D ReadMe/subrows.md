@@ -19,7 +19,8 @@ In this,we are defining the following  function and using this instead of **defi
 					[{label:"address", field:"address",colSpan:30}
 					]
 			];
-		}```		
+		}
+```		
 			
 We can use it like this:
 ```js
@@ -29,7 +30,7 @@ We can use it like this:
 						store: testCountryStore,
 						subRows:getSubRows(),
 		}, "treeGrid");
-	```
+```
 **CONCLUSION:**
 		By using the above segment of code, **columns** will be  **displayed vertically** instead of horizontally along with it's corresponding data.
 	
@@ -42,7 +43,8 @@ we want to hide the header of subrows being displayed, and it's corresponding da
 				treeGrid.styleColumn("2-0","display:none");
 				treeGrid.styleColumn("3-0","display:none");
 				treeGrid.styleColumn("4-0","display:none");								
-				treeGrid.resize();```
+				treeGrid.resize();
+```
 				                                                                                    
 **CONCLUSION:**
    By using this, we succeed in hiding the header of subrows but the data corresponding to those subrows was not visible, that we didn't want to do.
@@ -52,7 +54,7 @@ we want to hide the header of subrows being displayed, and it's corresponding da
    
  **EXPLANATION:**
     we used the following code,
-    ```js
+   ```js
     aspect.after(treeGrid, "insertRow", function(m, x){
 	var _this = treeGrid;
 	var _type = x[0].type;
@@ -78,7 +80,8 @@ we want to hide the header of subrows being displayed, and it's corresponding da
 						}, 100)
 					}
 					return m
-				});```     
+				});
+```     
 **CONCLUSION:**
  After this, we had the data and the header was hidden.
      
