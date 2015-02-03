@@ -23,7 +23,7 @@ R&D and Working demos developed by RCorpers
 - Harpreet Singh [@harpreetkhalsagtbit](http://github.com/harpreetkhalsagtbit)
 
 ##Contributors (In Alphabetic Order)
-- Ashan Gandhi
+- Ashna Gandhi
 
 ##Sponsors
 
