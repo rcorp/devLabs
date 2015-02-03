@@ -16,3 +16,20 @@ R&D and Working demos developed by RCorpers
  5. [Clean Code Structure - Using Dojo and Async.js at BackEnd without usinf Dojo's Deferred] (https://github.com/rcorp/devLabs/blob/master/R&D%20ReadMe/README%20-%20Dojo%20Deferred%20vs%20Node%20Async.md)
  6. [Before getting into your Projects] (https://github.com/rcorp/devLabs/blob/master/R%26D%20ReadMe/README%20-%20Before%20Getting%20into%20your%20Projects.md)
  7. [How can we display messages for child in tree grid which further has no child.] (https://github.com/rcorp/devLabs/blob/master/R%26D%20ReadMe/README%20-%20Add%20NoChildFound%20Message%20to%20TreeGrid.md)
+
+#Credits
+
+##Authors
+- Harpreet Singh [@harpreetkhalsagtbit](http://github.com/harpreetkhalsagtbit)
+
+##Contributors (In Alphabetic Order)
+- Ashan Gandhi
+
+##Sponsors
+
+This project is principally sponsored by RCorp (Ramanan Corporation). Visit [rcorp.co.in](http://rcorp.co.in) to know more about this company. 
+
+Sponsorhip opportunities *Coming Soon*!
+
+#License
+Code and documentation copyright 2015 Ramanan Corporation (RCorp). Code released under the MIT license. Docs released under Creative Commons.
